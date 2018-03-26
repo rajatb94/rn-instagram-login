@@ -5,7 +5,9 @@ login option.
 Enter it in to the terminal being in the project directory. ```npm install rn-instagram-login 
 --save```
 ## Importing
-```js var InstagramLogin = require("rn-instagram-login") ```
+```js 
+var InstagramLogin = require("rn-instagram-login") 
+```
 ## Login and get access token
 You can now track which item has just entered the visible area using ``` onCurrentItemChanged``` 
 listiner

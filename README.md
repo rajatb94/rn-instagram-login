@@ -14,7 +14,7 @@ var InstagramLogin = require("rn-instagram-login")
 ### Example:
 ```js
 	<InstagramLogin
-    		style={{width: "100%", flex: 1}}
+            style={{width: "100%", flex: 1}}
             clientId='CLIENT_ID'
             scopes={['PERMISSION_1', 'PERMISSION_2']}
             redirectUrl='REDIRECT_URL'

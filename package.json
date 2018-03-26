@@ -1,6 +1,6 @@
 {
   "name": "rn-instagram-login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module facilitates user with Instagram Login/SignUp",
   "main": "index.js",
   "scripts": {

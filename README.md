@@ -2,18 +2,19 @@
 Can be easily integrated to perform implicit Instagram authentication including Instagram's Facebook 
 login option.
 ## Installation
-Enter it in to the terminal being in the project directory. ```npm install rn-instagram-login 
---save```
+Enter it in to the terminal being in the project directory. 
+```
+npm install rn-instagram-login --save
+```
 ## Importing
 ```js
 var InstagramLogin = require("rn-instagram-login") 
 ```
-## Login and get access token
-You can now track which item has just entered the visible area using ``` onCurrentItemChanged``` 
-listiner
-### example:
+
+### Example:
 ```js
 	<InstagramLogin
+    		style={{width: "100%", flex: 1}}
             clientId='CLIENT_ID'
             scopes={['PERMISSION_1', 'PERMISSION_2']}
             redirectUrl='REDIRECT_URL'
@@ -26,7 +27,10 @@ listiner
             }}/>
 ```
 ### Props:
-#### ```clientId
+
+#### ```style``` --- Optional
+All style properties allowed for a WebView
+#### ```clientId```
 Client ID provided by Instagram Developer Console.
 #### ```scopes```
 It must be of type Array and each entry must conatin valid permission name (list of all permissions 

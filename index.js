@@ -16,7 +16,8 @@ class InstagramLogin extends React.Component {
       this.setState({
           isOpen: false
       })
-      this.props.onClose();
+      if(this.props.onClose)
+        this.props.onClose();
   }
   onNavigationStateChange(webViewState){
     var curUrl=webViewState.url;
